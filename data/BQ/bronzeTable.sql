@@ -1,4 +1,4 @@
-CREATE EXTERNAL TABLE IF NOT EXISTS `expanded-league-477308.bronze_dataset.orders`(
+CREATE EXTERNAL TABLE IF NOT EXISTS `expanded-league-477308-m5.bronze_dataset.orders`(
     order_id INT64,
     customer_id INT64,
     order_date STRING,
