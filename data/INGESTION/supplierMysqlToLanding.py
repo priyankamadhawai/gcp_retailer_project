@@ -8,7 +8,7 @@ import json
 spark = SparkSession.builder.appName("supplierMySQLToLanding").getOrCreate()
 
 # Google Cloud Storage (GCS) Configuration variables
-GCS_BUCKET = " retailer-datalake-project-1172025"
+GCS_BUCKET = "retailer-datalake-project-1172025"
 LANDING_PATH = f"gs://{GCS_BUCKET}/landing/supplier-db/"
 ARCHIVE_PATH = f"gs://{GCS_BUCKET}/landing/supplier-db/archive/"
 CONFIG_FILE_PATH = f"gs://{GCS_BUCKET}/configs/supplier_config.csv"
