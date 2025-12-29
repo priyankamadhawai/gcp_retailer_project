@@ -3,7 +3,6 @@ steps:
   - name: 'python'
     entrypoint: pip
     args: ["install", "-r", "utils/requirements.txt", "--user"]
-
   # Step 2: Run the script to upload DAGs and Data to Composer bucket
   - name: 'python'
     entrypoint: python
